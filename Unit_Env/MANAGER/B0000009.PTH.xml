@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="TRUE" edg="Y" checksum="3902194579" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Add" canonical="" mangled="Add" class_member="FALSE" testable="TRUE" complexity="1">
+    <listing_start>8</listing_start>
+    <listing_end>14</listing_end>
+    <test_path index="1"/>
+    <script>TEST.VALUE:manager.Add.a:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Add.b:&lt;&lt;MIN&gt;&gt;
+</script>
+  </subprogram>
+  <subprogram index="2" name="Add_Included_Dessert" canonical="" mangled="Add_Included_Dessert" class_member="FALSE" testable="TRUE" complexity="3">
+    <listing_start>17</listing_start>
+    <listing_end>30</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:NO_ENTREE
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) if ((Order-&gt;Entree == (LOBSTER) &amp;&amp; Order-&gt;Salad == (GREEN)) &amp;&amp; Order-&gt;Beverage == (WINE)) ==&gt; TRUE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:LOBSTER
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:GREEN
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:WINE
+</script>
+    </test_path>
+    <test_path index="3">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if ((Order-&gt;Entree == (STEAK) &amp;&amp; Order-&gt;Salad == (CAESAR)) &amp;&amp; Order-&gt;Beverage == (MIXED_DRINK)) ==&gt; TRUE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Add_Included_Dessert.Order.Entree:STEAK
+TEST.VALUE:manager.Add_Included_Dessert.Order:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Included_Dessert.Order.Salad:CAESAR
+TEST.VALUE:manager.Add_Included_Dessert.Order.Beverage:MIXED_DRINK
+</script>
+    </test_path>
+  </subprogram>
+  <subprogram index="3" name="Place_Order" canonical="" mangled="Place_Order" class_member="FALSE" testable="TRUE" complexity="5">
+    <listing_start>31</listing_start>
+    <listing_end>62</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="5">
+          <text>
+            <line>(5) case (Order.Entree) ==&gt; PASTA</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Place_Order.Order.Entree:PASTA
+TEST.VALUE:manager.Place_Order.Table:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Place_Order.Seat:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) case (Order.Entree) ==&gt; NO_ENTREE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Place_Order.Order.Entree:NO_ENTREE
+TEST.VALUE:manager.Place_Order.Table:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Place_Order.Seat:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="3">
+      <branches>
+        <branch index="2">
+          <text>
+            <line>(2) case (Order.Entree) ==&gt; STEAK</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Place_Order.Order.Entree:STEAK
+TEST.VALUE:manager.Place_Order.Table:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Place_Order.Seat:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="4">
+      <branches>
+        <branch index="3">
+          <text>
+            <line>(3) case (Order.Entree) ==&gt; CHICKEN</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Place_Order.Order.Entree:CHICKEN
+TEST.VALUE:manager.Place_Order.Table:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Place_Order.Seat:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="5">
+      <branches>
+        <branch index="4">
+          <text>
+            <line>(4) case (Order.Entree) ==&gt; LOBSTER</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Place_Order.Order.Entree:LOBSTER
+TEST.VALUE:manager.Place_Order.Table:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Place_Order.Seat:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+  </subprogram>
+  <subprogram index="4" name="Clear_Table" canonical="" mangled="Clear_Table" class_member="FALSE" testable="TRUE" complexity="2">
+    <listing_start>63</listing_start>
+    <listing_end>81</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) for (Seat &lt; 4) ==&gt; FALSE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Clear_Table.Table:&lt;&lt;MIN&gt;&gt;
+</script>
+      <notes>      Conflict: Unable to control expression-to-expression comparison in branch 1
+</notes>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) for (Seat &lt; 4) ==&gt; TRUE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.Clear_Table.Table:&lt;&lt;MIN&gt;&gt;
+</script>
+      <notes>      Conflict: Unable to control expression-to-expression comparison in branch 1
+</notes>
+    </test_path>
+  </subprogram>
+  <subprogram index="5" name="Get_Check_Total" canonical="" mangled="Get_Check_Total" class_member="FALSE" testable="TRUE" complexity="1">
+    <listing_start>82</listing_start>
+    <listing_end>88</listing_end>
+    <test_path index="1"/>
+    <script>TEST.VALUE:manager.Get_Check_Total.Table:&lt;&lt;MIN&gt;&gt;
+</script>
+  </subprogram>
+  <subprogram index="6" name="Add_Party_To_Waiting_List" canonical="" mangled="Add_Party_To_Waiting_List" class_member="FALSE" testable="TRUE" complexity="3">
+    <listing_start>89</listing_start>
+    <listing_end>100</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; FALSE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;null&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; TRUE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MIN&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;malloc 1&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name[0]:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="3">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListSize &gt; (9)) ==&gt; TRUE</line>
+          </text>
+        </branch>
+        <branch index="2">
+          <text>
+            <line>(2) while (Name &amp;&amp; *Name) ==&gt; FALSE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListSize:&lt;&lt;MAX&gt;&gt;
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:&lt;&lt;null&gt;&gt;
+</script>
+    </test_path>
+  </subprogram>
+  <subprogram index="7" name="Get_Next_Party_To_Be_Seated" canonical="" mangled="Get_Next_Party_To_Be_Seated" class_member="FALSE" testable="TRUE" complexity="2">
+    <listing_start>101</listing_start>
+    <listing_end>107</listing_end>
+    <test_path index="1">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListIndex &gt; (9)) ==&gt; FALSE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListIndex:&lt;&lt;MIN&gt;&gt;
+</script>
+    </test_path>
+    <test_path index="2">
+      <branches>
+        <branch index="1">
+          <text>
+            <line>(1) if (WaitingListIndex &gt; (9)) ==&gt; TRUE</line>
+          </text>
+        </branch>
+      </branches>
+      <script>TEST.VALUE:manager.&lt;&lt;GLOBAL&gt;&gt;.WaitingListIndex:&lt;&lt;MAX&gt;&gt;
+</script>
+    </test_path>
+  </subprogram>
+</basis_paths>

@@ -1,0 +1,16 @@
+
+
+VectorCAST Test Script Maintenance Utility
+---------------------------------------------------------------------------
+Starting Pass 1
+There are: 0 commands needing conversion
+Converted: 0 commands.
+---------------------------------------------------------------------------
+Converted: 0 out of: 0 commands
+---------------------------------------------------------------------------
+Converted: 0 out of 0 enumerals
+---------------------------------------------------------------------------
+Command translations computed: 0
+Enumeral translations computed: 0
+Script lines modified: 0
+---------------------------------------------------------------------------

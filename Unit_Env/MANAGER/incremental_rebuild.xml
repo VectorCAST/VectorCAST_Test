@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rebuild timestamp="1531875808" status="INCREMENTAL_REBUILD_SUCCEEDED" total_testcases="3" testcases_preserved="0">
+  <unit index="9">
+    <function>Add</function>
+  </unit>
+  <affected_results/>
+</rebuild>

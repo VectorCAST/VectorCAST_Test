@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="5">
+  <unit index="9" coverage_type="STATEMENT_MCDC" max_mcdc_conditions="8">
+    <name>database</name>
+    <subprogram index="1">
+      <name>Get_Table_Record</name>
+      <mangled>Get_Table_Record</mangled>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="1" stmt_id="0" startline="6" startcol="1" endline="6" endcol="1" tustartline="52" tustartcol="1" tuendline="52" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="1" stmt_id="2" startline="7" startcol="3" endline="7" endcol="29" tustartline="53" tustartcol="3" tuendline="53" tuendcol="29" allowed_position="0"/>
+      </lines>
+      <startline>52</startline>
+      <startcol>1</startcol>
+      <endline>54</endline>
+      <endcol>1</endcol>
+      <orig_startline>6</orig_startline>
+      <orig_endline>8</orig_endline>
+      <firstexec_startline>53</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>7</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="2">
+      <name>Update_Table_Record</name>
+      <mangled>Update_Table_Record</mangled>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="2" stmt_id="0" startline="11" startcol="1" endline="11" endcol="1" tustartline="57" tustartcol="1" tuendline="57" tuendcol="1" allowed_position="3"/>
+        <line number="1" id="2" stmt_id="2" startline="12" startcol="3" endline="12" endcol="27" tustartline="58" tustartcol="3" tuendline="58" tuendcol="27" allowed_position="2"/>
+      </lines>
+      <startline>57</startline>
+      <startcol>1</startcol>
+      <endline>59</endline>
+      <endcol>1</endcol>
+      <orig_startline>11</orig_startline>
+      <orig_endline>13</orig_endline>
+      <firstexec_startline>58</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>12</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="MCDC_PAIRS">
+          <total>0</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

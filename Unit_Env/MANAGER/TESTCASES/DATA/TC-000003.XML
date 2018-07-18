@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase xml_testcase_version="2.0">
+  <name>Place_Order.001</name>
+  <unique_id>3</unique_id>
+  <unit>9</unit>
+  <subprogram>3</subprogram>
+  <input_exists>TRUE</input_exists>
+  <expected_exists>FALSE</expected_exists>
+  <results_exists>FALSE</results_exists>
+  <creation>
+    <month>7</month>
+    <day>18</day>
+    <year>2018</year>
+    <hour>9</hour>
+    <minute>37</minute>
+    <seconds>50</seconds>
+    <ampm>AM</ampm>
+  </creation>
+  <user_code_needs_compile>FALSE</user_code_needs_compile>
+  <user_code_needs_instr_compile>FALSE</user_code_needs_instr_compile>
+  <for_compound_only>FALSE</for_compound_only>
+  <is_specialized>FALSE</is_specialized>
+  <covered_by_analysis>FALSE</covered_by_analysis>
+  <automatic_initialization>FALSE</automatic_initialization>
+  <automatic_finalization>FALSE</automatic_finalization>
+  <is_sorted>TRUE</is_sorted>
+  <testcase_status>TCR_STATUS_OK</testcase_status>
+  <execution_status>TC_EXECUTION_NONE</execution_status>
+  <tolerance>0.000000</tolerance>
+  <timeout>-1</timeout>
+  <parameter_attributes/>
+</testcase>

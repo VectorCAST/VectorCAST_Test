@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probe_points version="1.0" last_serial_number="3">
+  <file_scope unit="9" placement="0" tu_line="1900"/>
+  <dropped serial_number="1" unit="9" function="Add" matching_line="sum = a + b;" code="a = 1;&#10;b = 1;"/>
+  <dropped serial_number="3" unit="9" function="Add" matching_line="sum = sum + a + b;" code="a = 1;"/>
+</probe_points>

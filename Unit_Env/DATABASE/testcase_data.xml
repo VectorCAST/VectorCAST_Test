@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+  </init>
+  <unit index="9" coverage_type="Statement+MCDC">
+    <name>database</name>
+    <subprogram index="1">
+      <name>Get_Table_Record</name>
+      <testcase index="1">
+        <name>Get_Table_Record.001</name>
+        <unique_id>1</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="2">
+      <name>Update_Table_Record</name>
+      <testcase index="1">
+        <name>Update_Table_Record.001</name>
+        <unique_id>2</unique_id>
+      </testcase>
+    </subprogram>
+  </unit>
+</testcase_data>

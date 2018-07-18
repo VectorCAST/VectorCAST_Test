@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:/Users/MDS/Documents/GitHub/VectorCAST_Test/Unit_Env\\MANAGER.20180718093733.tst
+(I) @LINE: 21
+    >>> The test case Add.001 is being processed.
+(S) @LINE: 26
+    >>> Processed Test Case Add.001
+(I) @LINE: 34
+    >>> The test case Add_Party_To_Waiting_List.001 is being processed.
+(S) @LINE: 36
+    >>> Processed Test Case Add_Party_To_Waiting_List.001
+(I) @LINE: 44
+    >>> The test case Place_Order.001 is being processed.
+(S) @LINE: 46
+    >>> Processed Test Case Place_Order.001
+(S) @LINE: 46
+    >>> Script processing completed
+
+
