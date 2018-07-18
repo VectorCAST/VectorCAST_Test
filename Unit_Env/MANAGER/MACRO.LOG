@@ -1,4 +1,8 @@
-(S) @LINE: 46
-    >>> Script creation started for C:\Users\MDS\Documents\GitHub\VectorCAST_Test\Unit_Env\MANAGER.20180718100601.tst
-(S) @LINE: 46
-    >>> Script Creation Completed
+(I) @LINE: 1
+    >>> Opening script file C:\Users\MDS\Documents\GitHub\VectorCAST_Test\Unit_Env\MANAGER\MANAGER_auto.tst
+(I) @LINE: 12
+    >>> The test case BASIS-PATH-001 is being processed.
+(S) @LINE: 19
+    >>> Processed Test Case BASIS-PATH-001
+(S) @LINE: 20
+    >>> Script processing completed
