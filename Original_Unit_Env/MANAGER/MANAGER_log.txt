@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:\Users\MDS\Documents\GitHub\VectorCAST_Test\Original_Unit_Env\MANAGER\MANAGER_auto.tst
+(I) @LINE: 12
+    >>> The test case BASIS-PATH-001 is being processed.
+(S) @LINE: 19
+    >>> Processed Test Case BASIS-PATH-001
+(S) @LINE: 20
+    >>> Script processing completed
+
+

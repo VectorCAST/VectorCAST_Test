@@ -1,0 +1,13 @@
+******************
+***Compiling File: I0000009.c
+In file included from S0000009.c:65:0,
+                 from I0000009.c:2:
+database_exp_inst_driver.c: In function 'VCAST_TI_9_13':
+database_exp_inst_driver.c:820:60: warning: 'sizeof' on array function parameter 'vcast_param' will return size of 'char *' [-Wsizeof-array-argument]
+             VCAST_TI_STRING ( (char**)&vcast_param, sizeof ( vcast_param ), 1,VCAST_TI_9_13_upper);
+                                                            ^
+database_exp_inst_driver.c:799:27: note: declared here
+ void VCAST_TI_9_13 ( char vcast_param[10] )
+                           ^~~~~~~~~~~
+******************
+***Compiling File: B0000002.c

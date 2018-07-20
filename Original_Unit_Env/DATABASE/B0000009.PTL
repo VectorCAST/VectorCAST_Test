@@ -1,0 +1,12 @@
+               #include "C:/VCAST/Tutorial/c/ctypes.h"
+               struct table_data_type Table_Data[6];
+               struct table_data_type Get_Table_Record(table_index_type Table)
+               {
+1 0     ( )    Get_Table_Record
+                 return (Table_Data[Table]);
+               }
+               void Update_Table_Record(table_index_type Table, struct table_data_type Data)
+               {
+2 0     ( )    Update_Table_Record
+                 Table_Data[Table] = Data;
+               }
