@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includedeps>
+  <unit id="8"/>
+<unit id="9"><file chksum="6c56bf61b291e803cd0092e2fc85df1d" timestamp="1531875801">C:/VCAST/Tutorial/c/manager.c</file><file chksum="b0c3f98ec5a3ac0de97baad8e0fec1ba" timestamp="1531716470">C:/VCAST/Tutorial/c/ctypes.h</file><file chksum="c8d37516ee98cb02d82a3370d35f9c51" timestamp="1531716679">C:/VCAST/Tutorial/c/reg.h</file></unit></includedeps>
