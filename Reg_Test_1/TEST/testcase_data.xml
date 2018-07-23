@@ -17,10 +17,6 @@
     </subprogram>
     <subprogram index="3">
       <name>Place_Order</name>
-      <testcase index="1">
-        <name>Place_Order.001</name>
-        <unique_id>2</unique_id>
-      </testcase>
     </subprogram>
     <subprogram index="4">
       <name>Clear_Table</name>
